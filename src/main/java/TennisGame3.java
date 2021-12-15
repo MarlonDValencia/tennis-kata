@@ -24,13 +24,12 @@ public class TennisGame3 implements TennisGame {
             return ((p1-p2)*(p1-p2) == 1) ? "Advantage " + s : "Win for " + s;
         }
     }
-    
+
     public void wonPoint(String playerName) {
         if (playerName == "player1")
             this.p1 += 1;
         else
             this.p2 += 1;
-        
-    }
 
+    }
 }
